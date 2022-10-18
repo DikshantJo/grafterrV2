@@ -34,7 +34,7 @@ import Cookies from "../../components/HomePage/GdprPopUp";
 })
  */
 
-export default function Home() {
+export default function Home({ ip }) {
   /* global windows size output */
   const [windowSize, setWindowSize] = useState(0);
   let screenWidth = windowSize;
@@ -156,7 +156,7 @@ export default function Home() {
 }
 
 /* Exporting IP to other components */
-/* export async function getServerSideProps({ req }) {
+export async function getServerSideProps({ req }) {
   console.log(req.headers);
   const ip = req.headers["x-real-ip"] || req.connection.remoteAddress;
 
@@ -166,4 +166,3 @@ export default function Home() {
     }, // will be passed to the page component as props
   };
 }
- */
