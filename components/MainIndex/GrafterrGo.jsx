@@ -21,7 +21,7 @@ const GrafterrGo = () => (
         Take your business to the next level
       </p>
 
-      <div className="mt-5  lg:mt-[100px] flex flex-col items-center md:flex-row md:justify-between">
+      <div className="mt-5  lg:mt-[75px] flex flex-col items-center md:flex-row md:justify-between">
         <div className={`${styles.goGrafterrImage} mb-5 md:mb-0 `}>
           <Image objectFit="contain" alt="go grafterr" src={goGrafter} />
         </div>
