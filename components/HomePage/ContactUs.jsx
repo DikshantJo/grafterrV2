@@ -16,7 +16,7 @@ import successMessageIconII from "../../public/grafterrImage/contactUsSvg/succes
 // import { Cookies } from 'next/dist/server/web/spec-extension/cookies';
 // import btnIcon from '../public/grafterrImage/contactUsSvg/submitButton.svg'
 
-const ContactUs = ({ ip }) => {
+const ContactUs = () => {
   const {
     register,
     reset,
