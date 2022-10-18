@@ -10,7 +10,6 @@ import getPaidContactless from "../../public/grafterrImage/mainIndex/getPaidCont
 
 import styles from "../../styles/mainIndexcss/getPaid.module.css";
 import common from "../../styles/mainIndexcss/common.module.css";
-
 const GetPaid = () => {
   const getCartsList = () => (
     <>
