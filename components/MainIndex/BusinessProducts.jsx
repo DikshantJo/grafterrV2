@@ -15,7 +15,7 @@ import rectangle2 from "../../public/grafterrImage/mainIndex/rectangle2.svg";
 import ellipse6 from "../../public/grafterrImage/mainIndex/ellipse6.svg";
 
 //Styling CSS
-import styles from "../../styles/mainindexcss/businessProducts.module.css";
+import styles from "../../styles/mainIndexcss/businessProducts.module.css";
 
 const BusinessProducts = () => {
   return (

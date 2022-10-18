@@ -10,7 +10,7 @@ import Professional from "./Professional";
 import { data } from "./CardData";
 
 //Styling CSS
-import styles from "../../styles/mainindexcss/grafterrProfessional.module.css";
+import styles from "../../styles/mainIndexcss/grafterrProfessional.module.css";
 
 const GrafterrProfessional = () => {
   // Card Iteration Item Function

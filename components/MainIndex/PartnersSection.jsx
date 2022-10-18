@@ -11,7 +11,7 @@ import worldpay from "../../public/grafterrImage/mainIndex/worldpay.png";
 import mailchimp from "../../public/grafterrImage/mainIndex/mailchimp.png";
 
 //Styling CSS
-import styles from "../../styles/mainindexcss/partnerSection.module.css";
+import styles from "../../styles/mainIndexcss/partnerSection.module.css";
 import Image from "next/image";
 
 const PartnersSection = () => {
