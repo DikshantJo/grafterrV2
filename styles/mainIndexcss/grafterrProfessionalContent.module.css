@@ -1,0 +1,116 @@
+.grafterrProfessionalBody {
+  background-color: #313030;
+}
+
+.grafterrProfessionalHeading {
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+.grafterrProfessionalPara {
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+
+.grafterrProfessionalImage {
+  width: 100%;
+}
+
+.grafterrProfessionalButton {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  background: #df5353;
+  border: 1.5px solid #df5353;
+  border-radius: 3px;
+  display: block;
+  width: 175px;
+  text-align: center;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+
+  .grafterrProfessionalImage {
+    width: 100%;
+    margin-right: -10%;
+  }
+  .grafterrProfessionalButton {
+    margin-top: 10px;
+  }
+  .grafterrProfessionalButton{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 575px) {
+  /* Styles */
+  .grafterrProfessionalImage {
+    margin-right: -11%;
+  }
+  .grafterrProfessionalButton {
+    margin-top: 10px;
+  }
+  .grafterrProfessionalButton{
+    width: 100%;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* Styles */
+  .grafterrProfessionalImage {
+    margin-right: -11%;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Styles */
+  .grafterrProfessionalImage {
+    width: 50%;
+    margin-right: -6%;
+  }
+  .grafterrProfessionalTextContainer {
+    width: 45%;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width: 1024px) {
+  /* Styles */
+  .grafterrProfessionalImage {
+    width: 50%;
+    margin-right: -5.5%;
+  }
+  .grafterrProfessionalTextContainer {
+    width: 38%;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+
+  .grafterrProfessionalImage {
+    width: 55%;
+    margin-right: -12.5%;
+  }
+  .grafterrProfessionalTextContainer {
+    width: 40%;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+  .grafterrProfessionalImage {
+    width: 70%;
+    margin-right: -14.5%;
+  }
+  .grafterrProfessionalTextContainer {
+    width: 38%;
+  }
+}
