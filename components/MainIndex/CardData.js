@@ -6,7 +6,7 @@ import digitalOrderingImg from "../../public/grafterrImage/mainIndex/digitalOrde
 import hrOperationsImg from "../../public/grafterrImage/mainIndex/hrOperationsImg.svg";
 
 //Card Styling
-import styles from "../../styles/mainindexcss/grafterrProfessional.module.css";
+import styles from "../../styles/mainIndexcss/grafterrProfessional.module.css";
 
 export const data = [
   {
