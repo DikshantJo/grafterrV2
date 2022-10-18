@@ -52,7 +52,7 @@ const Hero = () => (
         <p className={`${styles.heroDescription} mt-1`}>
           We’re working hard to integrate <br className="md:hidden" /> ePOS
           Hybrid into our website, <br className="md:hidden" />
-          bare with us!
+          bear with us!
         </p>
       </div>
     </div>

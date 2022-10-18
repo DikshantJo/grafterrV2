@@ -95,7 +95,7 @@ const GetPaid = () => {
         </Link>
       </div>
 
-      <div className={`${styles.getPaidImage} hidden md:block mt-5 md:mt-0 order-0 md:order-1`}>
+      <div className={`${styles.getPaidImage} hidden md:block mt-5 md:mt-0 md:-mb-2 order-0 md:order-1`}>
         <Image objectFit="contain" alt="get paid" src={getPaidGroup} />
       </div>
       <div className={`${styles.getPaidImage} md:hidden mt-5 md:mt-0 order-0 md:order-1`}>
