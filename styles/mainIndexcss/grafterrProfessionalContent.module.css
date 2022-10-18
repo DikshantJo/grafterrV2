@@ -25,8 +25,12 @@
   border: 1.5px solid #df5353;
   border-radius: 3px;
   display: block;
-  width: 175px;
+  min-width: 175px;
   text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Smartphones (portrait) ----------- */

@@ -16,7 +16,7 @@ const GrafterrProfessional = () => (
       <h1
         className={`${common.commonHeading} ${styles.grafterrProfessionalHeading}`}
       >
-        Grafter Professional
+        Grafterr Professional
       </h1>
       <p
         className={`${common.commonPara} ${styles.grafterrProfessionalPara} my-2 mb-8`}
