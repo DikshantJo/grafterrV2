@@ -1,0 +1,324 @@
+.professionalContainer {
+  min-height: 100vh;
+  background: #313030;
+}
+
+.grafterHeading {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.grafterContent {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.grafterrCardContainer {
+  width: 90%;
+  justify-content: space-around;
+}
+
+.cardContainer {
+  width: 245px;
+  background: #eaf1fe;
+  border-radius: 20px;
+}
+
+.cardBgI {
+  background: #eaf1fe;
+}
+
+.cardBgII {
+  background: #fce7e7;
+}
+.cardBgIII {
+  background: #fff9ea;
+}
+
+.cardBgIV {
+  background: #eef8e7;
+}
+
+.cardBgV {
+  background: #f5f3ff;
+}
+
+.cardImage {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+}
+
+.cardHeading {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+
+.cardHeadingI {
+  color: #04173c;
+}
+
+.cardHeadingII {
+  color: #5b1010;
+}
+
+.cardHeadingIII {
+  color: #604709;
+}
+
+.cardHeadingIV {
+  color: #1e3a09;
+}
+
+.cardHeadingIV {
+  color: #190d61;
+}
+
+.cardContent {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #181818;
+  /* margin-top: auto; */
+}
+
+.cardBtn {
+  margin-top: 16px;
+  width: 176px;
+  height: 46px;
+  background: #94b7fa;
+  border-radius: 3px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cardBtnBgColorI {
+  background: #94b7fa;
+}
+
+.cardBtnBgColorII {
+  background: #ee8787;
+}
+
+.cardBtnBgColorIII {
+  background: #ffe296;
+}
+
+.cardBtnBgColorIV {
+  background: #acda86;
+}
+
+.cardBtnBgColorV {
+  background: #ccc2ff;
+}
+
+@media only screen and (max-width: 320px) {
+  .grafterHeading {
+    font-size: 25px;
+    line-height: 21px;
+    margin-top: 70px;
+  }
+  .grafterContent {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+  }
+
+  .grafterrCardContainer {
+    /* width: 90%; */
+    margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .cardContainer {
+    width: 40%;
+    height: 320px;
+    margin: 8px;
+  }
+  .cardImage {
+    width: 119px;
+    height: 109px;
+  }
+  .cardHeading {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .cardContent {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .cardBtn {
+    width: 132px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: auto;
+  }
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
+  .grafterHeading {
+    font-size: 25px;
+    line-height: 21px;
+    margin-top: 70px;
+  }
+  .grafterContent {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+  }
+  .cardContainer {
+    border-radius: 10px;
+  }
+
+  .grafterrCardContainer {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .cardContainer {
+    width: 45%;
+    height: 326px;
+    margin: 8px;
+  }
+  .cardImage {
+    width: 109px;
+    height: 109px;
+  }
+  .cardHeading {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .cardContent {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .cardBtn {
+    width: 132px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: auto;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .grafterHeading {
+    font-size: 4.2vh;
+    line-height: 5.6vh;
+  }
+  .grafterContent {
+    font-size: 2.3vh;
+    line-height: 3.2vh;
+  }
+  .cardImage {
+    width: 140px;
+    height: 140px;
+  }
+  .cardHeading {
+    font-size: 2.2vh;
+    line-height: 4.2vh;
+  }
+  .cardContent {
+    font-size: 1.4vh;
+    line-height: 2vh;
+  }
+  .cardBtn {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: auto;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .grafterHeading {
+    font-size: 6.2vh;
+    line-height: 7.6vh;
+  }
+  .grafterContent {
+    font-size: 3.3vh;
+    line-height: 4.2vh;
+  }
+
+  .grafterrCardContainer {
+    width: 90%;
+    justify-content: space-around;
+  }
+
+  .cardContainer {
+    width: 200px;
+  }
+  .cardImage {
+    width: 80%;
+    /* height: 140px; */
+  }
+  .cardHeading {
+    margin-top: 10px;
+    font-size: 2.8vh;
+    line-height: 3.8vh;
+  }
+  .cardContent {
+    font-size: 1.8vh;
+    line-height: 2.8vh;
+  }
+  .cardBtn {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (min-width: 1824px) {
+  .grafterHeading {
+    font-size: 6.2vh;
+    line-height: 7.6vh;
+  }
+  .grafterContent {
+    font-size: 3.3vh;
+    line-height: 4.2vh;
+  }
+
+  .grafterrCardContainer {
+    width: 90%;
+  }
+
+  .cardContainer {
+    width: 255px;
+  }
+  .cardImage {
+    margin-bottom: 20px;
+    width: 100%;
+    /* height: 120px; */
+  }
+  .cardHeading {
+    font-size: 2.2vh;
+    line-height: 3.4vh;
+  }
+  .cardContent {
+    font-size: 1.4vh;
+    line-height: 2.4vh;
+  }
+  .cardBtn {
+    width: 140px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
