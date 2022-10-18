@@ -42,6 +42,12 @@
   height: 60%;
 }
 
+.getPaidCard {
+  font-size: 11px;
+  line-height: 16px;
+  width: 130px !important;
+  height: 130px;
+}
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 320px) {
   /* Styles */

@@ -14,7 +14,7 @@ import common from "../../styles/mainIndexcss/common.module.css";
 const GetPaid = () => {
   const getCartsList = () => (
     <>
-      <div className="sm:my-10 flex items-center justify-center md:justify-start flex-wrap">
+      <div className=" sm:mt-6 flex items-center justify-center md:justify-start flex-wrap">
         <div
           className={`${styles.getPaidCard} flex flex-col items-center justify-center mb-4 mr-4`}
         >
