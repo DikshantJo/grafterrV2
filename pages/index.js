@@ -13,7 +13,8 @@ import GetPaid from "../components/MainIndex/GetPaid";
 import GrafterrProfessional from "../components/MainIndex/GrafterrProfessional";
 import PartnersSection from "../components/MainIndex/PartnersSection";
 
-export default function Home() {
+export default function Home({ip}) {
+  console.log(ip)
   /* global windows size output */
   const [windowSize, setWindowSize] = useState(0);
   let screenWidth = windowSize;
@@ -89,4 +90,14 @@ export default function Home() {
       <PartnersSection />
     </div>
   );
+}
+
+export async function getServerSideProps({ req }) {
+  const forwarded = req.headers["x-forwarded-for"]
+  const ip = forwarded ? forwarded.split(/, /)[0] : req.connection.remoteAddress
+  return {
+    props: {
+      ip,
+    },
+  }
 }
