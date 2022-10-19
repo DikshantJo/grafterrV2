@@ -16,7 +16,7 @@ const GrafterrGo = () => (
         winning sides of Grafterr
       </h1>
       <p
-        className={`${common.commonPara}  text-bold md:text-normal lg:text-lg  text-center my-1`}
+        className={`${common.commonPara}  text-bold md:text-normal lg:text-lg xl:text-xl 2xl:text-2xl  text-center my-1`}
       >
         Take your business to the next level
       </p>

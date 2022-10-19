@@ -21,19 +21,22 @@ const BusinessProducts = () => {
   return (
     <div
       id="BusinessProducts"
-      className={`${styles.productContainer} flex flex-col items-center pt-16 sm:pt-24`}
+      className={`${styles.productContainer} flex flex-col items-center relative`}
     >
-      <h1 className={`${styles.productHeading}`}>
-        Choose a product <br className="block md:hidden" /> thats right for you.
-      </h1>
-      <p className={`${styles.productContent} pt-4`}>
-        There's two different sides of <br className="block sm:hidden" />
-        Grafterr, GO! a payment product <br className="block sm:hidden" />
-        for small businesses <br className="hidden sm:block" /> and
-        Professional, <br className="block sm:hidden" />a powerful ePOS &
-        management
-        <br className="block md:hidden" /> platform for F&B operators
-      </p>
+      <div className="pt-24 flex flex-col items-center">
+        <h1 className={`${styles.productHeading}`}>
+          Choose a product <br className="block md:hidden" /> thats right for
+          you.
+        </h1>
+        <p className={`${styles.productContent} pt-4`}>
+          There's two different sides of <br className="block md:hidden" />
+          Grafterr, GO! a payment product <br className="block md:hidden" />
+          for small businesses <br className="hidden lg:block" /> and
+          Professional, <br className="block md:hidden" />a powerful ePOS &
+          management
+          <br className="block md:hidden" /> platform for F&B operators
+        </p>
+      </div>
       <div
         className={`${styles.cardContainer} mt-16 flex flex-wrap justify-center`}
       >
@@ -41,7 +44,7 @@ const BusinessProducts = () => {
         <div
           className={`${styles.productCardI} flex flex-col items-center relative mb-10`}
         >
-          <h1 className={styles.cardHeadingI}>Go!</h1>
+          <h1 className={`${styles.cardHeadingI} mt-5`}>Go!</h1>
           <p className={`${styles.cardHeadingII}`}>Sell anything, anywhere</p>
           <p className={`${styles.cardContent} mt-4`}>
             No fixed costs, no monthly fees.
@@ -69,7 +72,7 @@ const BusinessProducts = () => {
         <div
           className={`${styles.productCardII} flex flex-col items-center mb-10`}
         >
-          <h1 className={styles.cardHeadingI}>Professional</h1>
+          <h1 className={`${styles.cardHeadingI} mt-5`}>Professional</h1>
           <p className={`${styles.cardHeadingII} pb-5`}>
             Technology for hospitality <br className=" hidden lg:block" /> &
             catering professionals
@@ -81,31 +84,31 @@ const BusinessProducts = () => {
           <div
             className={`${styles.itemContainer} flex flex-wrap justify-center mt-4`}
           >
-            <div className="flex items-center mb-1 mr-4">
+            <div className="flex items-center mb-1 mr-4 order-1">
               <div className={`${styles.CardImageContainer} flex items-center`}>
                 <Image src={ellipse6} alt="ellipse6" objectFit="contain" />
               </div>
               <p className={styles.itemsNames}>POS</p>
             </div>
-            <div className="flex items-center mb-1 mr-4">
+            <div className="flex items-center mb-1 mr-4 order-2">
               <div className={`${styles.CardImageContainer} flex items-center`}>
                 <Image src={vector1} alt="vector1" objectFit="contain" />
               </div>
               <p className={styles.itemsNames}>Self-serve Kiosk</p>
             </div>
-            <div className="flex items-center mb-1 mr-4">
-              <div className={`${styles.CardImageContainer} flex items-center`}>
-                <Image src={rectangle2} alt="rectangle2" objectFit="contain" />
-              </div>
-              <p className={styles.itemsNames}>Online</p>
-            </div>
-            <div className="flex items-center mb-1 mr-4">
+            <div className="flex items-center mb-1 mr-4 order-4 md:order-3">
               <div className={`${styles.CardImageContainer} flex items-center`}>
                 <Image src={vector3} alt="vector3" objectFit="contain" />
               </div>
               <p className={styles.itemsNames}>Digital ordering</p>
             </div>
-            <div className="flex items-center mb-1 mr-4">
+            <div className="flex items-center mb-1 mr-4 order-3 md:order-4">
+              <div className={`${styles.CardImageContainer} flex items-center`}>
+                <Image src={rectangle2} alt="rectangle2" objectFit="contain" />
+              </div>
+              <p className={styles.itemsNames}>Online</p>
+            </div>
+            <div className="flex items-center mb-1 mr-4 order-5">
               <div className={`${styles.CardImageContainer} flex items-center`}>
                 <Image src={vector5} alt="vector5" objectFit="contain" />
               </div>
@@ -118,12 +121,14 @@ const BusinessProducts = () => {
             </button>
             <button className={styles.learnMoreBtnI}>
               <Link href="https://www.eposhybrid.com/contact-us">
-                <a target="_blank">Talk to an Expert</a>
+                Talk to an Expert
               </Link>
             </button>
           </div>
         </div>
       </div>
+
+      <div className={`${styles.main} hidden md:block`}></div>
     </div>
   );
 };

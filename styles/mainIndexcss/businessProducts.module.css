@@ -1,6 +1,16 @@
 .productContainer {
-  /* height: 100vh; */
   background: #313030;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.main {
+  background: #fefefe;
+  height: 200px;
+  width: 100%;
+  bottom: -1%;
+  position: absolute;
+  z-index: 1;
 }
 
 .productHeading {
@@ -26,6 +36,7 @@
   border-radius: 20px;
   width: 80%;
   padding: 10px;
+  z-index: 2;
 }
 
 .productCardII {
@@ -34,6 +45,7 @@
   border-radius: 20px;
   width: 80%;
   padding: 10px;
+  z-index: 2;
 }
 
 .cardHeadingI {
@@ -91,7 +103,7 @@
 
 .learnMoreBtnI {
   background: #f7f7f7;
-  border: 2px solid #1b1b1b;
+  border: 1px solid #1b1b1b;
   border-radius: 3px;
 
   font-family: "Lato";
@@ -115,22 +127,108 @@
 @media only screen and (max-width: 320px) {
   .productHeading {
     font-size: 25px;
-    line-height: 38px;
+    line-height: 28px;
   }
 
   .productContent {
-    font-size: 18px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .productContent {
+    font-size: 19px;
     line-height: 26px;
   }
 
   .productCardI {
-    width: 85%;
-    height: 525px;
+    width: 80%;
+    height: 545px;
   }
 
   .productCardII {
-    width: 85%;
-    height: 620px;
+    width: 80%;
+    height: 640px;
+  }
+
+  .cardHeadingI {
+    font-size: 36px;
+    line-height: 24px;
+  }
+
+  .cardHeadingII {
+    font-size: 21px;
+    line-height: 31px;
+  }
+
+  .cardContent {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .arcImage {
+    width: 257px;
+    height: 257px;
+    bottom: 0;
+    left: 0;
+  }
+
+  .tablet {
+    width: 163px;
+    height: 187px;
+  }
+
+  .eposImage {
+    width: 80%;
+  }
+
+  .posContent {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+  }
+
+  .CardImageContainer {
+    width: 14px;
+    height: 14px;
+  }
+
+  .itemsNames {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .downloadBtn,
+  .learnMoreBtnI,
+  .learnMoreBtnII {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 34px;
+    width: 256px;
+    height: 40px;
+    z-index: 1;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+  .productHeading {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .productContent {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .productCardI {
+    width: 80%;
+    height: 545px;
+  }
+
+  .productCardII {
+    width: 80%;
+    height: 640px;
   }
 
   .cardHeadingI {
@@ -192,92 +290,8 @@
   }
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width: 321px) and (max-width: 767px) {
-  .productHeading {
-    font-size: 25px;
-    line-height: 38px;
-  }
-
-  .productContent {
-    font-size: 18px;
-    line-height: 26px;
-  }
-
-  .productCardI {
-    width: 85%;
-    height: 545px;
-  }
-
-  .productCardII {
-    width: 85%;
-    height: 640px;
-  }
-
-  .cardHeadingI {
-    font-size: 36px;
-    line-height: 24px;
-  }
-
-  .cardHeadingII {
-    font-size: 21px;
-    line-height: 31px;
-  }
-
-  .cardContent {
-    font-size: 16px;
-    line-height: 24px;
-  }
-
-  .arcImage {
-    width: 257px;
-    height: 257px;
-    bottom: 0;
-    left: 0;
-  }
-
-  .tablet {
-    width: 163px;
-    height: 187px;
-  }
-
-  .eposImage {
-    width: 80%;
-  }
-
-  .posContent {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 17px;
-  }
-
-  .CardImageContainer {
-    width: 14px;
-    height: 14px;
-  }
-
-  .itemsNames {
-    font-size: 12px;
-    line-height: 22px;
-  }
-
-  .downloadBtn,
-  .learnMoreBtnI,
-  .learnMoreBtnII {
-    margin-top: 14px;
-    font-size: 15px;
-    line-height: 34px;
-    width: 256px;
-    height: 40px;
-    z-index: 1;
-  }
-}
-
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .productContainer {
-    height: 65vh;
-  }
   .productHeading {
     font-size: 3.2vh;
     line-height: 4.2vh;
@@ -357,8 +371,8 @@
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
-  .productContainer {
-    height: 100vh;
+  .main {
+    height: 250px;
   }
   .productHeading {
     font-size: 42px;
@@ -405,7 +419,7 @@
   }
 
   .eposImage {
-    width: 70%;
+    width: 65%;
   }
 
   .posContent {
@@ -436,15 +450,9 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-  .productContainer {
-    height: 95vh;
-  }
-}
-
 @media only screen and (min-width: 1824px) {
-  .productContainer {
-    height: 95vh;
+  .main {
+    height: 300px;
   }
   .productHeading {
     font-size: 54px;
