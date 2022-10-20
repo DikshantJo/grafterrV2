@@ -22,12 +22,11 @@
 }
 
 .grafterrCardContainer {
-  width: 90%;
-  justify-content: space-around;
+  width: 100%;
 }
 
 .cardContainer {
-  width: 245px;
+  width: 30%;
   background: #eaf1fe;
   border-radius: 20px;
 }
@@ -92,7 +91,7 @@
   text-align: center;
   letter-spacing: -0.02em;
   color: #181818;
-  /* margin-top: auto; */
+  margin-top: auto;
 }
 
 .cardBtn {
@@ -132,70 +131,102 @@
   .grafterHeading {
     font-size: 25px;
     line-height: 21px;
-    margin-top: 70px;
   }
   .grafterContent {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 19px;
+    line-height: 22px;
     letter-spacing: -0.02em;
   }
 
   .grafterrCardContainer {
-    /* width: 90%; */
-    margin-top: 10px;
-    justify-content: center;
-    margin-bottom: 50px;
+    width: 95%;
+    justify-content: space-around;
   }
   .cardContainer {
     width: 40%;
-    height: 320px;
-    margin: 8px;
+    height: 250px;
+    /* margin: 2px; */
+    border-radius: 10px;
   }
   .cardImage {
-    width: 119px;
-    height: 109px;
+    width: 80%;
+    height: 120px;
   }
   .cardHeading {
-    font-size: 15px;
-    line-height: 30px;
-  }
-  .cardContent {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
   }
+  .cardContent {
+    font-size: 10px;
+    line-height: 15px;
+  }
   .cardBtn {
-    width: 132px;
-    height: 38px;
-    font-size: 14px;
-    line-height: 22px;
-    margin-top: auto;
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    line-height: 20px;
   }
 }
 
-@media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
+@media screen and (min-width: 321px) and (max-width: 479px) {
   .grafterHeading {
     font-size: 25px;
     line-height: 21px;
-    margin-top: 70px;
   }
   .grafterContent {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 19px;
+    line-height: 22px;
     letter-spacing: -0.02em;
-  }
-  .cardContainer {
-    border-radius: 10px;
   }
 
   .grafterrCardContainer {
-    width: 100%;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    width: 95%;
+    justify-content: space-around;
   }
   .cardContainer {
-    width: 45%;
-    height: 326px;
+    width: 40%;
+    height: 250px;
+    /* margin: 2px; */
+    border-radius: 10px;
+  }
+  .cardImage {
+    width: 60%;
+    height: 120px;
+  }
+  .cardHeading {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .cardContent {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .cardBtn {
+    width: 100%;
+    height: 35px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
+  .grafterHeading {
+    font-size: 25px;
+    line-height: 21px;
+  }
+  .grafterContent {
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+  }
+
+  .grafterrCardContainer {
+    width: 90%;
+    justify-content: space-around;
+  }
+  .cardContainer {
+    width: 40%;
+    height: 290px;
     margin: 8px;
   }
   .cardImage {
@@ -211,11 +242,10 @@
     line-height: 20px;
   }
   .cardBtn {
-    width: 132px;
+    width: 80%;
     height: 38px;
     font-size: 14px;
     line-height: 22px;
-    margin-top: auto;
   }
 }
 
@@ -228,22 +258,26 @@
     font-size: 2.3vh;
     line-height: 3.2vh;
   }
+  .cardContainer {
+    width: 28%;
+    margin: 10px;
+  }
   .cardImage {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 150px;
   }
   .cardHeading {
-    font-size: 2.2vh;
-    line-height: 4.2vh;
+    font-size: 2vh;
+    line-height: 3vh;
   }
   .cardContent {
     font-size: 1.4vh;
     line-height: 2vh;
   }
   .cardBtn {
+    width: 80%;
     font-size: 16px;
     line-height: 22px;
-    margin-top: auto;
   }
 }
 
@@ -263,26 +297,34 @@
   }
 
   .cardContainer {
-    width: 200px;
+    width: 18%;
   }
   .cardImage {
-    width: 80%;
-    /* height: 140px; */
+    width: 130px;
   }
   .cardHeading {
     margin-top: 10px;
-    font-size: 2.8vh;
+    font-size: 2.4vh;
     line-height: 3.8vh;
   }
   .cardContent {
-    font-size: 1.8vh;
-    line-height: 2.8vh;
+    font-size: 2vh;
+    line-height: 2.6vh;
   }
   .cardBtn {
-    width: 120px;
+    width: 80%;
     height: 40px;
     font-size: 14px;
     line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1540px) {
+  .cardContainer {
+    width: 16%;
+  }
+  .cardImage {
+    width: 140px;
   }
 }
 
@@ -301,7 +343,7 @@
   }
 
   .cardContainer {
-    width: 255px;
+    width: 14%;
   }
   .cardImage {
     margin-bottom: 20px;
@@ -317,7 +359,7 @@
     line-height: 2.4vh;
   }
   .cardBtn {
-    width: 140px;
+    width: 80%;
     font-size: 14px;
     line-height: 22px;
   }
