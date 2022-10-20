@@ -55,14 +55,15 @@ export default function Home({ ip }) {
   return (
     <div>
       <Head>
-        <title>Grafterr - Innovative Point of Sale & Payment Solutions</title>
+        <title>Grafterr GO! - Sell anything, anywhere.</title>
         <meta
           name="description"
-          content="Home of Grafterr's powerful end-to-end point of sale, payment and business management solutions."
+          content="Take payments instantly using your smartphone with Grafterr GO! point of sale app. No monthly fees, no set-up costs and certainly no contracts."
         />
         <meta name="robots" content="index,follow" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://www.grafterr.com" />
+
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -88,37 +89,37 @@ export default function Home({ ip }) {
         <link rel="manifest" href="/site.webmanifest"></link>
 
         <meta charSet="UTF-8" />
-        <meta name="keywords" content="Grafterr" />
-        <meta name="author" content="Grafterr" />
+        <meta name="keywords" content="go" />
+        <meta name="author" content="Grafterr Go" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         {/* open graph data */}
 
         <meta
           property="og:title"
-          content="Grafterr - Innovative Point of Sale & Payment Solutions"
+          content="Grafterr GO! - Sell anything, anywhere."
         />
         <meta property="og:url" content="https://www.grafterr.com/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="Home of Grafterr's powerful end-to-end point of sale, payment and business management solutions."
+          content="Take payments instantly using your smartphone with Grafterr GO! point of sale app. No monthly fees, no set-up costs and certainly no contracts."
         />
         <meta
           property="og:image"
           content="https://www.grafterr.com/_next/static/media/grafterr-OG-image.44386200.jpg"
         />
-        <meta property="og:site_name" content="Grafterr" />
+        <meta property="og:site_name" content="Grafterr Go!" />
 
         {/* twitter card */}
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:tittle"
-          content="Grafterr - Innovative Point of Sale & Payment Solutions"
+          content="Grafterr GO! - Sell anything, anywhere."
         />
         <meta
           name="twitter:description"
-          content="Home of Grafterr's powerful end-to-end point of sale, payment and business management solutions."
+          content="Take payments instantly using your smartphone with Grafterr GO! point of sale app. No monthly fees, no set-up costs and certainly no contracts."
         />
         <meta name="twitter:url" content="https://www.grafterr.com/" />
         <meta
@@ -147,7 +148,7 @@ export default function Home({ ip }) {
       {/* <Suspense fallback={`Loading...`}> */}
       <FAQ />
       {/* </Suspense> */}
-      <Contact ip={ip} />
+      <Contact />
       {/* <Footer /> */}
       <Cookies />
     </div>
@@ -156,12 +157,11 @@ export default function Home({ ip }) {
 
 /* Exporting IP to other components */
 export async function getServerSideProps({ req }) {
-  console.log(req.headers);
-  const ip = req.headers["x-real-ip"] || req.connection.remoteAddress;
-
+  const forwarded = req.headers["x-forwarded-for"]
+  const ip = forwarded ? forwarded.split(/, /)[0] : req.connection.remoteAddress
   return {
     props: {
       ip,
-    }, // will be passed to the page component as props
-  };
+    },
+  }
 }

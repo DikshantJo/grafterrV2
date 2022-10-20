@@ -75,7 +75,7 @@ const ContactUs = ({ ip }) => {
       // const resData = await resDatabase.json();
       // console.log(resData)
       // console.log(resDatabase)
-      if (res.status === 200 && resDatabase.status === 200) {
+      if (res.status === 200 || resDatabase.status === 200) {
         setSuccess(true);
         reset();
       }

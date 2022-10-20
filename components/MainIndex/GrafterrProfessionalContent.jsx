@@ -27,7 +27,7 @@ const GrafterrProfessional = () => (
           {" "}
           hospitality & catering businesses{" "}
         </span>{" "}
-        to streamlines full service operations
+        to streamline full service operations
       </p>
 
       <Link href="https://www.eposhybrid.com/">

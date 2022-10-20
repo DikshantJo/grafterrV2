@@ -32,8 +32,9 @@ import '../styles/componentcss/Designed.css'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-    {/*   <Navbar /> */}
+      <Navbar />
       <Component {...pageProps} />
+
       <Suspense fallback={`Loading...`}>
         <Footer/>
       </Suspense>

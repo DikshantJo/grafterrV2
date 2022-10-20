@@ -13,6 +13,7 @@ import vector3 from "../../public/grafterrImage/mainIndex/vector3.svg";
 import vector5 from "../../public/grafterrImage/mainIndex/vector5.svg";
 import rectangle2 from "../../public/grafterrImage/mainIndex/rectangle2.svg";
 import ellipse6 from "../../public/grafterrImage/mainIndex/ellipse6.svg";
+import grafterrIcon from "../../public/grafterrImage/mainIndex/grafterrIcon.svg";
 
 //Styling CSS
 import styles from "../../styles/mainIndexcss/businessProducts.module.css";
@@ -44,7 +45,16 @@ const BusinessProducts = () => {
         <div
           className={`${styles.productCardI} flex flex-col items-center relative mb-10`}
         >
-          <h1 className={`${styles.cardHeadingI} mt-5`}>Go!</h1>
+          <div className="flex justify-center items-center">
+            <div className={styles.grafterIcon}>
+              <Image
+                src={grafterrIcon}
+                alt="grafterr Logo"
+                objectFit="contain"
+              />
+            </div>
+            <h1 className={`${styles.cardHeadingI} ml-2`}>GO!</h1>
+          </div>
           <p className={`${styles.cardHeadingII}`}>Sell anything, anywhere</p>
           <p className={`${styles.cardContent} mt-4`}>
             No fixed costs, no monthly fees.
@@ -72,7 +82,17 @@ const BusinessProducts = () => {
         <div
           className={`${styles.productCardII} flex flex-col items-center mb-10`}
         >
-          <h1 className={`${styles.cardHeadingI} mt-5`}>Professional</h1>
+          <div className="flex justify-center items-center">
+            <div className={styles.grafterIcon}>
+              <Image
+                src={grafterrIcon}
+                alt="grafterr Logo"
+                objectFit="contain"
+              />
+            </div>
+            <h1 className={`${styles.cardHeadingI} ml-2`}>Professional</h1>
+          </div>
+
           <p className={`${styles.cardHeadingII} pb-5`}>
             Technology for hospitality <br className=" hidden lg:block" /> &
             catering professionals

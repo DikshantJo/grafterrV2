@@ -48,6 +48,11 @@
   z-index: 2;
 }
 
+.grafterIcon {
+  margin-top: 6px;
+  width: 24px;
+}
+
 .cardHeadingI {
   font-family: "Lato";
   font-style: normal;
@@ -148,6 +153,11 @@
   .productCardII {
     width: 80%;
     height: 640px;
+  }
+
+  .grafterIcon {
+    margin-top: 6px;
+    width: 24px;
   }
 
   .cardHeadingI {
@@ -310,6 +320,11 @@
     margin: 16px;
   }
 
+  .grafterIcon {
+    margin-top: 6px;
+    width: 28px;
+  }
+
   .cardHeadingI {
     font-size: 3.4vh;
     line-height: 3.6vh;
@@ -393,6 +408,11 @@
     margin: 50px;
   }
 
+  .grafterIcon {
+    margin-top: 10px;
+    width: 22px;
+  }
+
   .cardHeadingI {
     font-size: 32px;
     line-height: 38px;
@@ -465,6 +485,10 @@
   }
   .cardContainer {
     width: 100%;
+  }
+  .grafterIcon {
+    margin-top: 10px;
+    width: 30px;
   }
   .productCardI,
   .productCardII {

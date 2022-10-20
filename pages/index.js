@@ -14,7 +14,7 @@ import GrafterrProfessional from "../components/MainIndex/GrafterrProfessional";
 import PartnersSection from "../components/MainIndex/PartnersSection";
 
 export default function Home({ip}) {
-  console.log(ip)
+console.log(ip)
   /* global windows size output */
   const [windowSize, setWindowSize] = useState(0);
   let screenWidth = windowSize;
@@ -35,28 +35,28 @@ export default function Home({ip}) {
   return (
     <div>
       <Head>
-        <title>Grafterr GO! - Sell anything, anywhere.</title>
+        <title>Grafterr - Innovative Point of Sale & Payment Solutions</title>
         <meta
           name="description"
-          content="Take payments instantly using your smartphone with Grafterr GO! point of sale app. No monthly fees, no set-up costs and certainly no contracts."
+          content="Home of Grafterr's powerful end-to-end point of sale, payment and business management solutions."
         />
         <link rel="icon" href="/favicon.ico" sizes="16x16" />
         <meta charSet="UTF-8" />
         <meta name="keywords" content="go" />
-        <meta name="author" content="Grafterr Go" />
+        <meta name="author" content="Grafterr" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         {/* open graph data */}
 
         <meta
           property="og:title"
-          content="Grafterr"
+          content="Grafterr - Innovative Point of Sale & Payment Solutions"
         />
         <meta property="og:url" content="https://grafterr.com/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="Take payments instantly using your smartphone with Grafterr GO! point of sale app. No monthly fees, no set-up costs and certainly no contracts."
+          content="Home of Grafterr's powerful end-to-end point of sale, payment and business management solutions."
         />
         <meta
           property="og:image"
@@ -68,11 +68,11 @@ export default function Home({ip}) {
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:tittle"
-          content="Grafterr"
+          content="Grafterr - Innovative Point of Sale & Payment Solutions"
         />
         <meta
           name="twitter:description"
-          content="Take payments instantly using your smartphone with Grafterr GO! point of sale app. No monthly fees, no set-up costs and certainly no contracts."
+          content="Home of Grafterr's powerful end-to-end point of sale, payment and business management solutions."
         />
         <meta name="twitter:url" content="https://grafterr.com" />
         <meta
