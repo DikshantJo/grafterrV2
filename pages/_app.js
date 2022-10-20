@@ -3,6 +3,7 @@ import { Suspense } from 'react'
 
 
 import Navbar from '../components/Navbar'
+import Cookies from "../components/HomePage/GdprPopUp";
 // import Footer from '../components/Footer'
 
 
@@ -38,6 +39,7 @@ function MyApp({ Component, pageProps }) {
       <Suspense fallback={`Loading...`}>
         <Footer/>
       </Suspense>
+      <Cookies />
     </>
   );
 }

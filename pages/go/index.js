@@ -19,7 +19,7 @@ import JustInOneApp from "../../components/HomePage/JustInOneApp";
 import MultiPayment from "../../components/HomePage/MultiPayment";
 import DesignedForEveryOne from "../../components/HomePage/DesignedForEveryOne";
 import twitterImage from "../../public/grafterrImage/grafterr-OG-image.jpg";
-import Cookies from "../../components/HomePage/GdprPopUp";
+// import Cookies from "../../components/HomePage/GdprPopUp";
 
 /* lazy loading component */
 
@@ -150,7 +150,7 @@ export default function Home({ ip }) {
       {/* </Suspense> */}
       <Contact />
       {/* <Footer /> */}
-      <Cookies />
+      {/* <Cookies /> */}
     </div>
   );
 }
