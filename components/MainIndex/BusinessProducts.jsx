@@ -26,7 +26,7 @@ const BusinessProducts = () => {
     >
       <div className="pt-24 flex flex-col items-center">
         <h1 className={`${styles.productHeading}`}>
-          Choose a product <br className="block md:hidden" /> thats right for
+          Choose a product <br className="block md:hidden" /> that's right for
           you.
         </h1>
         <p className={`${styles.productContent} pt-4`}>

@@ -10,6 +10,7 @@ import Facebook from "../public/grafterrImage/facebook.svg";
 import Twitter from "../public/grafterrImage/twitter.svg";
 import Linkedin from "../public/grafterrImage/linkedin.svg";
 import scrollToTop from "../public/grafterrImage/Footer/scrollToTop.svg";
+import logoBold from "../public/grafterrLogoBold.svg";
 
 const Footer = () => {
   return (
@@ -20,7 +21,7 @@ const Footer = () => {
           style={{ marginLeft: "-10%" }}
         >
           <Image
-            src={LogoNew}
+            src={logoBold}
             alt="Logo image"
             width={400} // automatically provided
             height={90} // automatically provided
@@ -29,7 +30,7 @@ const Footer = () => {
         <div className="footerSubContainerI mt-4 sm:mt-8 sm:my-8 w-full lg:w-4/6 grid grid-cols-2  sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4 lg:gap-8">
           <div className=" mt-2 footerGrafterrLogo flex-col justify-start items-start hidden lg:flex">
             <Image
-              src={LogoNew}
+              src={logoBold}
               alt="Logo image"
               width={500} // automatically provided
               height={100} // automatically provided

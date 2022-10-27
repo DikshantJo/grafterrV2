@@ -62,8 +62,8 @@ const NavbarHome = () => {
                 style={{ color: `${textColor}` }}
                 className="grafterrNavBarLogo flex justify-center items-center"
               >
-                <Image src={logo} alt="Grafterr" />
-                <span className="mx-3 grafterrLogo">Grafterr</span>
+                <Image src={logo} alt="Grafterr"  width={120} height={30} />
+                {/* <span className="mx-3 grafterrLogo">Grafterr</span> */}
               </a>
             </Link>
           </div>

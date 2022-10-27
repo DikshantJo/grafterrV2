@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-// import logo from "../public/logoNew.png";
+import logoBold from "../public/grafterrLogoBold.svg";
 
 /* custom import */
 import topLeft from "../public/grafterrImage/navBar/topLeft.svg";
@@ -10,7 +10,7 @@ import bottomRight from "../public/grafterrImage/navBar/bottomRight.svg";
 import shopIcon from "../public/grafterrImage/navBar/shopIcon.svg";
 import hamBurger from "../public/grafterrImage/navBar/hamBurger.svg";
 import navCross from "../public/grafterrImage/navBar/navCross.svg";
-import logoNew from "../public/grafterrImage/logoNew.svg";
+// import logoNew from "../public/grafterrImage/logoNew.svg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -63,9 +63,9 @@ const Navbar = () => {
                 className="grafterrNavBarLogo flex justify-center items-center"
               >
                 <Image
-                  src={logoNew}
-                  width={130}
-                  height={40}
+                  src={logoBold}
+                  width={120} 
+                  height={30}
                   alt="Grafterr"
                   // width={500} automatically provided
                   // height={500} automatically provided
