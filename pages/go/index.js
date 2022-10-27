@@ -19,7 +19,7 @@ import JustInOneApp from "../../components/HomePage/JustInOneApp";
 import MultiPayment from "../../components/HomePage/MultiPayment";
 import DesignedForEveryOne from "../../components/HomePage/DesignedForEveryOne";
 import twitterImage from "../../public/grafterrImage/grafterr-OG-image.jpg";
-// import Cookies from "../../components/HomePage/GdprPopUp";
+
 
 /* lazy loading component */
 
@@ -62,7 +62,7 @@ export default function Home({ ip }) {
         />
         <meta name="robots" content="index,follow" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://www.grafterr.com" />
+        <link rel="canonical" href="https://www.grafterr.com/go" />
 
         <link
           rel="apple-touch-icon"
@@ -150,7 +150,6 @@ export default function Home({ ip }) {
       {/* </Suspense> */}
       <Contact />
       {/* <Footer /> */}
-      {/* <Cookies /> */}
     </div>
   );
 }

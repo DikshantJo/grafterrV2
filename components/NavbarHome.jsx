@@ -76,8 +76,8 @@ const NavbarHome = () => {
               <Link href="/go">GO! - Take payments</Link>
             </li>
             <li className="p-4 grafterNavlinks" style={{color:'white'}}>
-              <Link href="https://www.eposhybrid.com/">
-                <a target="_blank">Professional - Hospitality</a>
+              <Link href="/#grafterr-professional">
+                <a>Professional - Hospitality</a>
               </Link>
             </li>
             <li className="p-4 grafterNavlinks" style={{color:'white'}}>
@@ -154,8 +154,8 @@ const NavbarHome = () => {
               <Link href="/go">GO! - Take payments</Link>
             </li>
             <li className="my-4 p-2 mobTabNavLinks" onClick={handleNav} style={{lineHeight:"20px",fontSize:"30px"}}>
-              <Link href="https://www.eposhybrid.com/">
-                <a target="_blank">Professional - Hospitality</a>
+              <Link href="/#grafterr-professional">
+                <a>Professional - Hospitality</a>
               </Link>
             </li>
             <li className="my-4 p-2 mobTabNavLinks" onClick={handleNav} style={{lineHeight:"20px",fontSize:"30px"}}>

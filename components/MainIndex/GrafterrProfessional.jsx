@@ -30,7 +30,7 @@ const GrafterrProfessional = () => {
       <h1 className={`${styles.cardHeading} ${eachItem.headingColor} my-4`}>
         {eachItem.heading}
       </h1>
-      <p className={`${styles.cardContent} md:mt-4`}>{eachItem.content}</p>
+      <p className={`${styles.cardContent}`}>{eachItem.content}</p>
       <button
         className={`${styles.cardBtn} ${eachItem.buttonColor} ${eachItem.headingColor}`}
       >

@@ -45,6 +45,7 @@ console.log(ip)
         <meta name="keywords" content="go" />
         <meta name="author" content="Grafterr" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://www.grafterr.com"/>
 
         {/* open graph data */}
 
